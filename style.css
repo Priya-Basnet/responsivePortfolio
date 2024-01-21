@@ -253,7 +253,7 @@ border: rgb(53,53,53)0.1rem solid;
  }
 
 
- .btn-color-1,
+ .btn-color-1:hover,
  .btn-color-2:hover{
     background-color: rgb(53,53,53);
     color: white;
@@ -266,7 +266,11 @@ border: rgb(53,53,53)0.1rem solid;
  .btn-color-2:hover{
     border: rgb(255, 255, 255) 0.1rem solid;
  }
+ .btn-color-1{
+   background: none;
+}
 
+ .
  .btn-container{
     gap: 1rem;
  }
