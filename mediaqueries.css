@@ -50,15 +50,37 @@ display: flex;
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:400px){
+    
     #contact,
     footer{
-        height: 40vh;
+        height: 30vh;
+        margin-left: 50px;
 
     }
+
+    .hamburger-icon{
+        margin-left: 410px;
+    }
+    .hamburger-icon span{
+       
+        display: initial;
+    }
+    
     #profile{
-        height: 83vh;
+        height: 40vh;
         margin-bottom: 0;
+    }
+    .section__text{
+        margin-top: 180px;
+        margin-left: -5px;
+    }
+    .btn-container{
+       margin-right: 8px;
+    }
+
+    #socials-container{
+        margin-top: 80px;
     }
     article{
         font-size: 1rem;
@@ -86,6 +108,10 @@ display: flex;
     .logo{
         font-size: 1.5rem;
     }
+
+    #projects{
+        margin-top: 30px;
+    }
     .nav-links{
         flex-direction: column;
         gap: 0.5rem;
@@ -96,14 +122,54 @@ display: flex;
         height: 46vw;
         justify-content: center;
     }
+
+    .section__pic-container img{
+        margin-top: -50px;
+        margin-right: -10px;
+    }
     .section__text__p2{
         font-size: 1.25rem;
+        margin-top: -80px;
     }
     .title{
         font-size: 2rem;
+        margin-bottom: 80px;
+       
     }
     .text-container{
         text-align: justify;
+    }
+
+    #about{
+        margin-top: 280px;
+        margin-left: 50px;
+    }
+    #experience{
+        margin-left: 50px;
+
+    }
+    #contact{
+        padding: 0;
+        margin-left: 50px;
+
+    }
+    #contact .contact-info-upper-container{
+        margin-top: -80px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+#projects{
+    margin-left: 50px;
+
+}
+    .nav-links{
+        margin-top: -20px;
+        padding: 0;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
     }
     }
 

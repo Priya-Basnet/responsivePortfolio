@@ -88,6 +88,7 @@ a:hover{
     height: 2px;
     background-color: black;
     transition: all 0.3 ease-in-out;
+    display: none;
 }
 
 .menu-links{
@@ -186,6 +187,7 @@ max-height: 300px;
  .section__text{
     align-self: center;
     text-align: center;
+    margin-left: 200px;
 
    
  }
@@ -278,6 +280,7 @@ border: rgb(53,53,53)0.1rem solid;
  /* about section */
  #about{
     position: relative;
+    margin-top: -100px;
  }
 
  .about-containers{
@@ -373,6 +376,7 @@ border: rgb(53,53,53)0.1rem solid;
  
  #projects{
     position: relative;
+    margin-top: -250px;
  }
 
  .color-container{
